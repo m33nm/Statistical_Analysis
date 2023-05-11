@@ -1,0 +1,34 @@
+1. Title:	HIV Mortality Rate in Sub-Saharan African (SSA) Countries
+
+2. Data source:		The dataset is public, available for research. 
+			It was obtained from the world bank databank under the Health Nutrition and Population Statistics database.
+			https://databank.worldbank.org/source/health-nutrition-and-population-statistics 
+		
+3. Relevant information:
+	
+	The statistical analysis goal is to analyze and compare the HIV mortality rate in least developed and developed SSA countries over 10 years.
+	The data comprise of 10 SSA countries, of which 5 are developed with a high HDI and 5 least developed with low HDI value.
+	The HIV mortality rate was analysed based on the epidemic record situation in the region. Least developed countries often time face more epidemic
+	challenges compared to the developed countries. The statistical analysis accessed the data to provide insights to the epidemic challenge.
+
+4. Framework: The R Foundation for Statistical Computing (RStudio 4.2.2)
+
+5. Number of instances: 110
+
+6. Number of attributes: 9
+
+7. Missing attribute values: None
+
+8. Attribute information:
+
+Index No.	Variable	Type 	Description 
+1		HDI		Factor	Human Development Index, “High” and “Low”
+2		Country		Chr	Botswana, Burkina Faso, Chad, Gabon, Ghana, Mali, Namibia, Sierra Leone, South Africa, South Sudan
+3		Year		Int 	Time series of 11 years (2010-2020)
+4		Death by AIDS	Int	Number of death by AIDS and HIV-related deaths
+5		ART PLWH	Int	Number of people living with HIV enrolled in Antiretroviral Therapy
+6		ART PMTCT LWH	Int	Number of pregnant women living with HIV enrolled in Antiretroviral Therapy
+7		Undernourished	Int	Number of malnourished people
+8		Total PLWH	Int	The total population living with HIV
+9		Total PNIWH	Int	Total population newly infected with HIV
+ 
